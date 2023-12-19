@@ -1,0 +1,43 @@
+/* Add this to your CSS file or style tag in your component */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #DCF2FD; /* Set your desired background color */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.paper {
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.typography {
+  margin-top: 1rem;
+  color:#fff;
+}
+
+.button {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  background-color: #3f51b5; /* Set your desired button background color */
+  color: #fff; /* Set your desired button text color */
+}
+
+.button:hover {
+  background-color: #2d3b8c; /* Set your desired button background color on hover */
+}
